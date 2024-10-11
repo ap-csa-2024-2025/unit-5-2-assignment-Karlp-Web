@@ -2,9 +2,11 @@ public class Coins
 {
   public static void main(String[] args)
   {
-    int dollarBills = dollar % 60;
+    
+    
+    int coinConverter = ;
 
-    Scanner dollar();
+    System.out.println();
   }
 
   // write code for coinConverter
