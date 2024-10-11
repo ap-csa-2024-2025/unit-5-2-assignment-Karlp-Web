@@ -12,6 +12,16 @@ public class Coins
   }
   
     public static void coinConverter(int pennies){
+    //constants for the values of each coin
+    final int PENNIES_IN_DOLLAR = 100;
+    final int PENNIES_IN_DOLLAR = 25;
+    final int PENNIES_IN_DOLLAR = 10;
+    final int PENNIES_IN_DOLLAR = 5;
+
+    //calculate the number of dollar bills
+    int dollars = pennies / PENNIES_IN_DOLLAR;
+    pennies %/ PENNIES_IN_DOLLAR; //remaining pennies
+
     
 
 
